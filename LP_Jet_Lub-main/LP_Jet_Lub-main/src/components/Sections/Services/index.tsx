@@ -5,16 +5,16 @@ export const Services = () => {
     {
       title: "Reconhecimento",
       description: "Única troca de óleo 5 estrelas avaliada no Google com mais de 400 avaliações",
-        icon: <svg viewBox="0 0 46 37" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        icon: ( <svg viewBox="0 0 46 37" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
   <g transform="translate(4.5, 0) scale(1.5416667)">
     <path d="M12 .587l3.668 7.431 8.2 1.193-5.934 5.786 1.402 8.172L12 18.897 4.664 23.169l1.402-8.172L.132 9.211l8.2-1.193L12 .587z" fill="#D62828"/>
   </g>
-</svg>
+</svg> )
     },
     {
       title: "Fluido de câmbio automático",
       description: "Equipe treinada e experiente para troca de fluido completa da transmissão automática",
-      icon: <svg viewBox="0 0 46 37" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="color:#D62828">
+      icon: ( <svg viewBox="0 0 46 37" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="color:#D62828">
   <g transform="translate(4.5, 0) scale(1.5416667)">
     <circle cx="8" cy="14" r="3" fill="currentColor"/>
     <rect x="7.5" y="6.6" width="1" height="2.2" rx="0.5" fill="currentColor"/>
@@ -23,12 +23,12 @@ export const Services = () => {
     <rect x="9.2" y="13.5" width="2.2" height="1" rx="0.5" fill="currentColor"/>
     <path d="M16 3 Q10 9 12 15 Q16 21 20 15 Q22 9 16 3 Z" fill="currentColor"/>
   </g>
-</svg>
+</svg> )
     },
     {
       title: "Profissionais",
       description: "Equipe técnica com mais de 15 anos de experiência na área de troca de óleo, executando um serviço com agilidade e muita transparência para nossos clientes",
-      icon: <svg viewBox="0 0 46 37" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      icon: ( <svg viewBox="0 0 46 37" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
   <g transform="translate(4.5,0) scale(1.5416667)" fill="#D62828">
     <circle cx="12" cy="8" r="3"/>
     <path d="M6 20v-2c0-3.2 4.5-4.5 6-4.5s6 1.3 6 4.5v2H6Z"/>
@@ -37,7 +37,7 @@ export const Services = () => {
     <path d="M18 14.2l3 .8v3.8c0 1.5-1 3-2.5 3.6L18 23l-.5-.6c-1.5-.6-2.5-2.1-2.5-3.6V15l3-.8Z"/>
     <path d="M16.4 18.7l.9-.9 1.6 1.6 2.7-2.7.9.9-3.6 3.6-2.5-2.5Z" fill="white"/>
   </g>
-</svg>
+</svg> )
     }
   ]
 
