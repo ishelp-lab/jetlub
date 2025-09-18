@@ -20,7 +20,7 @@ export const About = () => {
 
   const features = [
     {
-      text: "Equipe treinada e experiente, especialista em fluido de câmbio automático, focados em meio ambiente e sustentabilidade (LUWART)",
+      text: "Equipe treinada e experiente, especialista em fluido de câmbio automático, focados em meio ambiente e sustentabilidade",
       icon: (
         <svg className="w-5 h-4 text-green-500" viewBox="0 0 20 16" fill="none">
           <path
@@ -61,9 +61,9 @@ export const About = () => {
       <div className="max-w-screen-xl mx-auto px-6">
         <Card>
           <Card.Text icon={TitleIcon}>
-            <Card.Text.Title title="Jet Lub" subtitle="Uberlândia: Referência em troca de óleo e fluidos automotivos" />
+            <Card.Text.Title title="Jet Lub" subtitle="Udi: Referência em troca de óleo de motor e fluido do câmbio automático." />
             <Card.Text.Description>
-              Mais de <span className="font-bold text-primary">2.000 clientes satisfeitos</span> confiam na Jet Lub para manter seus carros em perfeitas condições. Nossos profissionais altamente qualificados garantem um serviço impecável, transparente e ágil, sempre utilizando produtos das melhores marcas do mercado.
+              Mais de <span className="font-bold text-primary">2.000 clientes confiam</span> na Jet Lub para manter seus carros em perfeitas condições. Nossos profissionais altamente qualificados garantem um serviço impecável, transparente e ágil, sempre utilizando produtos das melhores marcas do mercado.
             </Card.Text.Description>
             {features.map((item, index) => (
               <Card.Text.Features key={index} icon={item.icon} text={item.text} />
