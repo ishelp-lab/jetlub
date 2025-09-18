@@ -1,7 +1,7 @@
 import Button from '../../ui/Button'
 
 const StarIcon = () => (
-  <svg viewBox="0 0 46 37" width="15" height="15" aria-hidden="true">
+  <svg viewBox="0 0 46 37" width="100" height="100" aria-hidden="true">
     <g transform="translate(4.5,0) scale(1.5416667)">
       <path d="M12 .587l3.668 7.431 8.2 1.193-5.934 5.786 1.402 8.172L12 18.897 4.664 23.169l1.402-8.172L.132 9.211l8.2-1.193L12 .587z" fill="#D62828"/>
     </g>
@@ -9,7 +9,7 @@ const StarIcon = () => (
 )
 
 const FluidIcon = () => (
-  <svg widhtviewBox="0 0 46 37" width="15" height="15" fill="none" aria-hidden="true">
+  <svg widhtviewBox="0 0 46 37" width="100" height="100" fill="none" aria-hidden="true">
     <g transform="translate(4.5,0) scale(1.5416667)" fill="#D62828">
       <rect x="0.5" y="7" width="9" height="2" rx="0.6"/>
       <rect x="1.5" y="9.2" width="7" height="2" rx="0.6"/>
@@ -35,7 +35,7 @@ const FluidIcon = () => (
 )
 
 const TeamIcon = () => (
-  <svg viewBox="0 0 46 37" width="15" height="15" fill="none" aria-hidden="true">
+  <svg viewBox="0 0 46 37" width="100" height="100" fill="none" aria-hidden="true">
     <g transform="translate(4.5,0) scale(1.5416667)" fill="#D62828">
       <circle cx="12" cy="8" r="3"/>
       <path d="M6 20v-2c0-3.2 4.5-4.5 6-4.5s6 1.3 6 4.5v2H6Z"/>
