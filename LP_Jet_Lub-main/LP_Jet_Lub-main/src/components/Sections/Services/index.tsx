@@ -6,7 +6,6 @@ export const Services = () => {
       title: "Reconhecimento",
       description: "Única troca de óleo 5 estrelas avaliada no Google com mais de 400 avaliações",
         icon: <svg viewBox="0 0 46 37" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-  <!-- estrela 24x24 centralizada e escalada para caber no viewBox 46x37 -->
   <g transform="translate(4.5, 0) scale(1.5416667)">
     <path d="M12 .587l3.668 7.431 8.2 1.193-5.934 5.786 1.402 8.172L12 18.897 4.664 23.169l1.402-8.172L.132 9.211l8.2-1.193L12 .587z" fill="#D62828"/>
   </g>
