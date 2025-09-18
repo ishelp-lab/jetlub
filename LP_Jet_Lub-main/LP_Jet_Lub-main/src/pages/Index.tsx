@@ -1,18 +1,23 @@
-import { FAQ } from "@/components/Sections/FAQ"
-import { About, Benefits, CTA, Hero, Location, Services, Testimonials, Video } from "../components/Sections"
+import { Hero } from '@/components/Sections/Hero'
+import { Services } from '@/components/Sections/Services'
+import { Benefits } from '@/components/Sections/Benefits'
+import { About } from '@/components/Sections/About'
+import { Video } from '@/components/Sections/Video'
+import { Testimonials } from '@/components/Sections/Testimonials'
+import { Location } from '@/components/Sections/Location'
+import { CTA } from '@/components/Sections/CTA'
 
 export const Index = () => {
-    return (
-        <div>
-            <Hero />
-            <About />
-            <Services />
-            <Benefits />
-            <Video />
-            <Testimonials />
-            <Location />
-            <FAQ />
-            <CTA />
-        </div>
-    )
+  return (
+    <>
+      <Hero />
+      <Services />
+      <Benefits />
+      <About />
+      <Video />
+      <Testimonials />
+      <Location />
+      <CTA />
+    </>
+  )
 }
