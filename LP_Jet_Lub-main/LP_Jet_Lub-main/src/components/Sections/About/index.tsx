@@ -61,7 +61,7 @@ export const About = () => {
       <div className="max-w-screen-xl mx-auto px-6">
         <Card>
           <Card.Text icon={TitleIcon}>
-            <Card.Text.Title title="Jet Lub" subtitle="Udi: Referência em troca de óleo de motor e fluido do câmbio automático." />
+            <Card.Text.Title title="Jet Lub Udi" subtitle=": Referência em troca de óleo de motor e fluido do câmbio automático." />
             <Card.Text.Description>
               Mais de <span className="font-bold text-primary">2.000 clientes confiam</span> na Jet Lub para manter seus carros em perfeitas condições. Nossos profissionais altamente qualificados garantem um serviço impecável, transparente e ágil, sempre utilizando produtos das melhores marcas do mercado.
             </Card.Text.Description>
