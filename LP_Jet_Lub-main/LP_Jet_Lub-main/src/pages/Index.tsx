@@ -17,7 +17,6 @@ export const Index = () => {
       <Video />
       <Testimonials />
       <Location />
-      <FAQ />
       <CTA />
     </>
   )
