@@ -69,7 +69,7 @@ export const Benefits = () => {
                 </svg>
             ),
             title: "Atendimento ágil e personalizado",
-            description: "Respeito ao seu tempo com agendamento fácil e serviço rápido."
+            description: "Respeitamos o seu tempo com serviço rápido e personalizado para cada modelo de veículo."
         }
     ]
 
