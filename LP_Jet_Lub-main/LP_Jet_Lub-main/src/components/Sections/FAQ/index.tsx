@@ -1,36 +1,70 @@
-import Button from '@/components/ui/Button';
-import { faqData } from './faqData';
-import { FAQItem } from './faqItem';
+import { useState } from "react";
+
+type FAQItem = { q: string; a: string };
+
+const faqs: FAQItem[] = [
+  {
+    q: "Quanto tempo leva a troca de óleo?",
+    a: "Em média 20 a 40 minutos, dependendo do veículo e do filtro.",
+  },
+  {
+    q: "Vocês conferem os principais itens durante o serviço?",
+    a: "Sim. Verificamos nível de fluídos, luz espia de serviço e vazamentos aparentes.",
+  },
+  {
+    q: "Trabalham com fluido de câmbio automático?",
+    a: "Sim. Temos equipe treinada para troca completa conforme o procedimento da montadora.",
+  },
+  {
+    q: "Posso levar meu próprio óleo/filtro?",
+    a: "Pode. Avaliamos a especificação recomendada e fazemos o serviço normalmente.",
+  },
+  {
+    q: "Emitimos nota e garantia?",
+    a: "Sim, nota fiscal e garantia do serviço/peças conforme cada caso.",
+  },
+];
 
 export const FAQ = () => {
-  return (
-    <section className="py-6 sm:py-8 md:py-10 lg:py-12 bg-background">
-      <div className="max-w-4xl mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-primary mb-4">
-            Perguntas Frequentes
-          </h2>
-          <p className="text-lg text-muted-foreground">
-            Tire suas dúvidas sobre nossos serviços e cuidados com seu veículo
-          </p>
-        </div>
-        {faqData.map((item, index) => (
-        <FAQItem key={index} question={item.question} answer={item.answer} index={index} />
-        ))}
+  const [open, setOpen] = useState<number | null>(0);
 
-        <div className="text-center mt-12">
-          <p className="text-muted-foreground mb-6">
-            Não encontrou a resposta que procurava?
-          </p>
-          <Button color="primary" size="sm" className="w-fit" onClick={() => {
-            document.querySelector('#contato')?.scrollIntoView({
-                behavior: 'smooth'
-              });
-          }}>
-            Entre em contato conosco
-          </Button>
-        </div>
+  return (
+    <section id="faq" className="container mx-auto px-4 py-12 scroll-mt-24">
+      <h2 className="mb-8 text-center text-2xl font-bold">Perguntas frequentes</h2>
+
+      <div className="mx-auto max-w-3xl rounded-xl border border-zinc-200 bg-white shadow-sm divide-y">
+        {faqs.map((item, i) => {
+          const expanded = open === i;
+          return (
+            <div key={i} className="p-4">
+              <button
+                type="button"
+                className="flex w-full items-center justify-between gap-4 text-left"
+                aria-expanded={expanded}
+                aria-controls={`faq-panel-${i}`}
+                onClick={() => setOpen(expanded ? null : i)}
+              >
+                <span className="font-medium">{item.q}</span>
+                <span
+                  aria-hidden
+                  className={`transition-transform ${expanded ? "rotate-180" : ""}`}
+                >
+                  ⌄
+                </span>
+              </button>
+
+              <div
+                id={`faq-panel-${i}`}
+                role="region"
+                hidden={!expanded}
+                className="pt-3 text-sm text-zinc-700"
+              >
+                {item.a}
+              </div>
+            </div>
+          );
+        })}
       </div>
     </section>
   );
-}; 
+};
