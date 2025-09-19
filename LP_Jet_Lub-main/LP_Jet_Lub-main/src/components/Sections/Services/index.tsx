@@ -105,13 +105,10 @@ export const Services = () => {
       </div>
 
       <div className="mt-8 flex justify-center">
-  <a
-    href="#contato"
-    className="inline-flex items-center rounded-md bg-[#D62828] px-4 py-2 text-white hover:opacity-90"
-  >
-    Saiba mais
-  </a>
-</div>
+        <Button onClick={() => document.querySelector('#contato')?.scrollIntoView({ behavior: 'smooth' })}>
+          Saiba mais
+        </Button>
+      </div>
 
     </section>
   )
