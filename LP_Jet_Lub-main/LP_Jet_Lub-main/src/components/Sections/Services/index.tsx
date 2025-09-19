@@ -94,7 +94,7 @@ export const Services = () => {
         {services.map((s, i) => (
           <article key={i} className="rounded-xl border p-5 shadow-sm text-center">
             {/* Centraliza horizontal e força tamanho 15×15 em qualquer <svg> filho */}
-            <div className="mb-3 flex justify-center leading-none [&>svg]:w-[15px] [&>svg]:h-[15px] [&>svg]:shrink-0">
+            <div className="mb-3 flex justify-center leading-none [&>svg]:w-[75px] [&>svg]:h-[75px] [&>svg]:shrink-0">
               {s.icon}
             </div>
 
