@@ -1,5 +1,3 @@
-import Button from '../../ui/Button'
-
 /** ------ seus ícones, só removi width/height fixos e marquei como block ------ */
 const StarIcon = () => (
   <svg viewBox="0 0 46 37" aria-hidden="true" className="block" preserveAspectRatio="xMidYMid meet">
@@ -70,7 +68,7 @@ export const Services = () => {
   ]
 
   return (
-    <section id="diferenciais" className="container mx-auto px-4 py-12">
+    <section id="diferenciais" className="container mx-auto px-4 py-12 scroll-mt-24">
       <h2 className="mb-10 text-center text-2xl font-bold">Nossos Diferenciais</h2>
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -86,9 +84,9 @@ export const Services = () => {
             <div
               className="
                 mx-auto mb-4 flex h-8 w-8 items-center justify-center rounded-full
-                bg-[#D62828]/10 leading-none
-                [&>svg]:block [&>svg]:h-[15px] [&>svg]:w-[15px]
+                leading-none [&>svg]:block [&>svg]:h-[15px] [&>svg]:w-[15px]
               "
+              style={{ backgroundColor: 'rgba(214, 40, 40, 0.10)' }}
             >
               {s.icon}
             </div>
