@@ -11,9 +11,9 @@ export const Index = () => {
   return (
     <>
       <Hero />
+      <About />
       <Services />
       <Benefits />
-      <About />
       <Video />
       <Testimonials />
       <Location />
