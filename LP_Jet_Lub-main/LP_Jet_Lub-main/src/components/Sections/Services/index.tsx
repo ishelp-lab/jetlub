@@ -1,7 +1,12 @@
 import Button from '../../ui/Button'
 
 const StarIcon = () => (
-  <svg viewBox="0 0 46 37" width="75" height="75" aria-hidden="true">
+  <svg
+    viewBox="0 0 46 37"
+    aria-hidden="true"
+    className="block"
+    preserveAspectRatio="xMidYMid meet"
+  >
     <g transform="translate(4.5,0) scale(1.5416667)">
       <path d="M12 .587l3.668 7.431 8.2 1.193-5.934 5.786 1.402 8.172L12 18.897 4.664 23.169l1.402-8.172L.132 9.211l8.2-1.193L12 .587z" fill="#D62828"/>
     </g>
@@ -9,7 +14,13 @@ const StarIcon = () => (
 )
 
 const FluidIcon = () => (
-  <svg widhtviewBox="0 0 46 37" width="75" height="75" fill="none" aria-hidden="true">
+  <svg
+    viewBox="0 0 46 37"   /* <- corrigido: antes estava 'widhtviewBox' */
+    fill="none"
+    aria-hidden="true"
+    className="block"
+    preserveAspectRatio="xMidYMid meet"
+  >
     <g transform="translate(4.5,0) scale(1.5416667)" fill="#D62828">
       <rect x="0.5" y="7" width="9" height="2" rx="0.6"/>
       <rect x="1.5" y="9.2" width="7" height="2" rx="0.6"/>
@@ -35,7 +46,13 @@ const FluidIcon = () => (
 )
 
 const TeamIcon = () => (
-  <svg viewBox="0 0 46 37" width="75" height="75" fill="none" aria-hidden="true">
+  <svg
+    viewBox="0 0 46 37"
+    fill="none"
+    aria-hidden="true"
+    className="block"
+    preserveAspectRatio="xMidYMid meet"
+  >
     <g transform="translate(4.5,0) scale(1.5416667)" fill="#D62828">
       <circle cx="12" cy="8" r="3"/>
       <path d="M6 20v-2c0-3.2 4.5-4.5 6-4.5s6 1.3 6 4.5v2H6Z"/>
@@ -71,18 +88,23 @@ export const Services = () => {
 
   return (
     <section id="diferenciais" className="container mx-auto px-4 py-10">
-      <h2 className="text-2xl font-bold mb-6">Nossos Diferenciais</h2>
+      <h2 className="text-2xl font-bold mb-6 text-center">Nossos Diferenciais</h2>
+
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {services.map((s, i) => (
-          <article key={i} className="rounded-xl border p-5 shadow-sm">
-            <div className="mb-3">{s.icon}</div>
+          <article key={i} className="rounded-xl border p-5 shadow-sm text-center">
+            {/* Centraliza horizontal e força tamanho 15×15 em qualquer <svg> filho */}
+            <div className="mb-3 flex justify-center leading-none [&>svg]:w-[15px] [&>svg]:h-[15px] [&>svg]:shrink-0">
+              {s.icon}
+            </div>
+
             <h3 className="text-lg font-semibold">{s.title}</h3>
             <p className="text-sm opacity-80">{s.description}</p>
           </article>
         ))}
       </div>
 
-      <div className="mt-8">
+      <div className="mt-8 flex justify-center">
         <Button onClick={() => document.querySelector('#contato')?.scrollIntoView({ behavior: 'smooth' })}>
           Saiba mais
         </Button>
