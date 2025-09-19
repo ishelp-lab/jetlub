@@ -12,31 +12,31 @@ export const faqData: FAQItem[] = [
   {
     question: "Quais serviços a Jet Lub oferece?",
     answer:
-      "Oferecemos troca de óleo, verificação de filtros, revisão rápida, checagem de fluidos, entre outros serviços essenciais para manter seu veículo em ótimo estado."
+      "Oferecemos troca de óleo de motor multimarcas linha leve e diesel leve, verificação de filtros de ar do motor, filtro de óleo, filtro de combustível e filtro de ar condicionado, Aditivos para radiador (aditivos para limpeza de bico via tanque), Limpeza radiador, Checagem de fluidos, Aditivos para transmissão automática, Troca de fluido e filtros de cambio automatico, Higienização ar condionado."
   },
   {
     question: "Preciso agendar um horário para ser atendido?",
     answer:
-      "Não é necessário agendamento! Basta comparecer a uma de nossas unidades e você será atendido rapidamente. Priorizamos a agilidade no atendimento."
+      "Não é necessário agendamento para troca de oleo do motor! Basta comparecer na nossa loja, atendimendo por ordem de chegada de segunda a sexta das 08:00 as 18:00 horas e sabádo das 08:00 as 12:00 horas. Não fechamos para almoço, Para serviço de troca do fluido do cambio automatico fazemos com agendamento."
   },
   {
     question: "Quais marcas de lubrificantes vocês utilizam?",
     answer:
-      "Trabalhamos apenas com marcas reconhecidas e certificadas no mercado, como Mobil, Shell, Texaco, entre outras. Garantia de performance e durabilidade para o seu motor."
+      "Trabalhamos apenas com marcas reconhecidas e certificadas no mercado, como Motul, Mobil, Shell, Texaco, Castrol, Total Quartz, Petronas, Motorcraft, AcDelco, Fuchs, entre outras, Garantia de performance e durabilidade para o seu motor."
   },
   {
     question: "Quanto tempo leva uma troca de óleo na Jet Lub?",
     answer:
-      "Nosso processo de troca de óleo é rápido e eficiente. Em média, o serviço completo leva entre 15 a 30 minutos."
+      "Troca de oleo de motor média de 30 a 40 minutos. Troca de fluido de cambio automatico a partir de 1 hora e meia."
   },
   {
     question: "A Jet Lub realiza serviços em veículos importados?",
     answer:
-      "Sim, temos estrutura e equipe técnica preparada para atender veículos nacionais e importados, com produtos compatíveis para cada tipo de motor."
+      "Sim, temos estrutura, equipamentos e equipe técnica preparada para atender veículos nacionais e importados, com produtos compatíveis para cada tipo de motor."
   },
   {
     question: "Vocês oferecem garantia nos serviços prestados?",
     answer:
-      "Sim! Garantimos a qualidade dos produtos e serviços realizados. Caso tenha qualquer problema, nossa equipe está pronta para resolver."
+      "Sim por seis meses ou a quilometragem indicada! Garantimos a qualidade dos produtos e serviços realizados."
   }
 ];
