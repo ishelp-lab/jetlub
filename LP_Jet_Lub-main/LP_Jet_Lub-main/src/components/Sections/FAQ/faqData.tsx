@@ -7,7 +7,7 @@ export const faqData: FAQItem[] = [
   {
     question: "O que é a Jet Lub?",
     answer:
-      "A Jet Lub é uma empresa especializada em troca de óleo e serviços automotivos rápidos, com foco em qualidade, agilidade e atendimento de excelência."
+      "A Jet Lub é uma empresa especializada em troca de óleo de motor, filtros e fluido de cambio automático com foco em qualidade, agilidade e atendimento de excelência."
   },
   {
     question: "Quais serviços a Jet Lub oferece?",
