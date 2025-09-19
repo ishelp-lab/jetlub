@@ -3,15 +3,15 @@ import Button from "../../ui/Button";
 export const Services = () => {
   const services = [
     {
-      title: "Fluido de câmbio automático",
-      description: "Garanta a vida útil e o desempenho do seu câmbio automático com fluido de qualidade.",
+      title: "Reconhecimento",
+      description: "Única troca de óleo 5 estrelas avaliada no Google com mais de 400 avaliações",
       icon: <svg viewBox="0 0 46 37" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M22.9922 9.5C24.2367 9.5 25.2422 8.49453 25.2422 7.25C25.2422 6.00547 24.2367 5 22.9922 5H13.9922C12.7477 5 11.7422 6.00547 11.7422 7.25C11.7422 8.49453 12.7477 9.5 13.9922 9.5H16.2422V11.75H10.6172H7.24219H3.86719C2.00391 11.75 0.492188 13.2617 0.492188 15.125V19.6812C0.492188 21.0172 1.27969 22.2266 2.49609 22.768L7.24219 24.8773V26.375C7.24219 28.2383 8.75391 29.75 10.6172 29.75H28.8352C30.1289 29.75 31.3523 29.1945 32.2102 28.2242L45.0352 13.6977C45.9 12.7203 45.0141 11.2086 43.7414 11.4828L31.9922 14L28.4414 12.2281C27.8156 11.9188 27.1266 11.75 26.4305 11.75H20.7422V9.5H22.9922ZM7.24219 15.125V21.1789L3.86719 19.6812V15.125H7.24219Z" fill="#D62828" />
       </svg>
     },
     {
-      title: "Troca de filtro de ar e Higienização de ar condicionado",
-      description: "Maior performance e economia com o filtro de ar limpo e ar condicionado higienizado.",
+      title: "Fluido de câmbio automático",
+      description: "Equipe treinada e experiente para troca de fluido completa da transmissão automática.",
       icon: <svg
         viewBox="0 0 37 37"
         fill="none"
@@ -24,8 +24,8 @@ export const Services = () => {
       </svg>
     },
     {
-      title: "Troca de óleo de motor",
-      description: "A troca de óleo ideal para manter o motor saudável e eficiente, somente marcas homologadas para o seu veículo",
+      title: "Profissionais",
+      description: "Equipe técnica com mais de 15 anos de experiência na área de troca de óleo, executando um serviço com agilidade e muita transparência para nossos clientes",
       icon: <svg viewBox="0 0 46 37" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M22.9922 9.5C24.2367 9.5 25.2422 8.49453 25.2422 7.25C25.2422 6.00547 24.2367 5 22.9922 5H13.9922C12.7477 5 11.7422 6.00547 11.7422 7.25C11.7422 8.49453 12.7477 9.5 13.9922 9.5H16.2422V11.75H10.6172H7.24219H3.86719C2.00391 11.75 0.492188 13.2617 0.492188 15.125V19.6812C0.492188 21.0172 1.27969 22.2266 2.49609 22.768L7.24219 24.8773V26.375C7.24219 28.2383 8.75391 29.75 10.6172 29.75H28.8352C30.1289 29.75 31.3523 29.1945 32.2102 28.2242L45.0352 13.6977C45.9 12.7203 45.0141 11.2086 43.7414 11.4828L31.9922 14L28.4414 12.2281C27.8156 11.9188 27.1266 11.75 26.4305 11.75H20.7422V9.5H22.9922ZM7.24219 15.125V21.1789L3.86719 19.6812V15.125H7.24219Z" fill="#D62828" />
       </svg>
