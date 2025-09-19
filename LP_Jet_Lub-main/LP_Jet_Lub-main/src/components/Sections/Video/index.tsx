@@ -9,7 +9,7 @@ export const Video = () => {
             
             <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-video">
               <iframe
-                src="https://www.youtube.com/embed/uSr41Le_1yc?si=AZuap7yBi5HadWBH"
+                src="https://www.youtube.com/embed/wKY3sIFOVM0"
                 title="Video demonstrativo"
                 className="w-full h-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
