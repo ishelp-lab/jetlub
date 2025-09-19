@@ -1,11 +1,12 @@
-import { Hero } from '@/components/Sections/Hero'
-import { Services } from '@/components/Sections/Services'
-import { Benefits } from '@/components/Sections/Benefits'
-import { About } from '@/components/Sections/About'
-import { Video } from '@/components/Sections/Video'
-import { Testimonials } from '@/components/Sections/Testimonials'
-import { Location } from '@/components/Sections/Location'
-import { CTA } from '@/components/Sections/CTA'
+import { Hero } from "@/components/Sections/Hero";
+import { About } from "@/components/Sections/About";
+import { Services } from "@/components/Sections/Services";
+import { Benefits } from "@/components/Sections/Benefits";
+import { Video } from "@/components/Sections/Video";
+import { Testimonials } from "@/components/Sections/Testimonials";
+import { Location } from "@/components/Sections/Location";
+import { CTA } from "@/components/Sections/CTA";
+import { FAQ } from "@/components/Sections/FAQ";
 
 export const Index = () => {
   return (
@@ -16,8 +17,9 @@ export const Index = () => {
       <Benefits />
       <Video />
       <Testimonials />
+      <FAQ />
       <Location />
       <CTA />
     </>
-  )
-}
+  );
+};
