@@ -4,7 +4,7 @@ export const Footer = () => {
   const contaccInfo = {
     address: 'Av. Floriano Peixoto, 1591 - Nossa Sra. Aparecida, Uberlândia - MG, 38400-700',
     phone: '+55 (34) 3045-4595',
-    email: 'contato@jetlub.com.br'
+    email: 'jetlub.udi@gmail.com'
   }
 
   const socialLinks = [
