@@ -4,7 +4,7 @@ export const Video = () => {
         <div className="max-w-screen-xl mx-auto px-6">
           <div className="bg-card rounded-3xl shadow-xl p-8">
             <h2 className="text-2xl font-bold text-primary text-center mb-12">
-              Assista e descubra o cuidado por trás de cada projeto
+              Assista e descubra o lugar certo para cuidar do seu carro com qualidade
             </h2>
             
             <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-video">
