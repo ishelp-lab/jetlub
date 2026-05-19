@@ -18,7 +18,7 @@ export const Header = () => {
         },
         {
             label: 'Serviços',
-            href: '#diferenciais'
+            href: '#servicos'
         },
         {
             label: 'Localização',
