@@ -10,6 +10,7 @@ export const Hero = () => {
           loop
           muted
           playsInline
+          onEnded={(e) => e.currentTarget.play()}
           className="w-full h-full object-cover opacity-60"
         >
           <source src={videoCover} type="video/mp4" />
