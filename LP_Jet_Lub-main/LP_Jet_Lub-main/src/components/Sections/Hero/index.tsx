@@ -1,4 +1,4 @@
-import videoCover from "@/assets/video-cover.mp4";
+eimport videoCover from "@/assets/video-cover.mp4";
 import Button from "@/components/ui/Button";
 
 export const Hero = () => {
