@@ -14,7 +14,7 @@ export const Video = () => {
             </h2>
           </div>
 
-          <div className="relative max-w-4xl mx-auto">
+          <div className="relative max-w-sm sm:max-w-md md:max-w-4xl mx-auto">
             {/* Ambient Backlight Glow */}
             <div className="absolute -inset-1 sm:-inset-2 bg-gradient-to-r from-primary/30 via-primary/10 to-primary/30 rounded-3xl blur-xl opacity-60 pointer-events-none" />
 
